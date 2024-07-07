@@ -82,6 +82,27 @@ box-shadow: none !important;
 .navbar-toggler{
     border: none !important;
 }
+.slider{
+    display: flex;
+    align-items: center;
+    animation: slide 15s linear infinite;
+}
+@keyframes slide {
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.text-slider{
+    font-size: 4.5rem;
+}
+.dots{
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 10px;
+}
 /* Media Queries */
 @media (min-width:786px) {
     .fs-title{
