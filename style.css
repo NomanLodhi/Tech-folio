@@ -5,11 +5,27 @@
 .bg-section-1{
     background-image: url('./media/background-blue-section.png');
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
     background-size: cover;
+}
+.text-justify{
+    text-align: justify;
+}
+.img-anim{
+    object-fit: cover;
+    filter: hue-rotate(15deg);
+    animation: move 10s linear infinite;
+}
+@keyframes move {
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(30px);
+    }
+    80%{
+        transform: translateY(-30px);
+    }
 }
 .nav-item .active{
     color: aqua !important;
@@ -47,7 +63,7 @@
     display: flex;
     align-items: center;
     justify-self: center;
-   
+    
 }
 .bg-heading{
     background-color: #04062d67;
@@ -57,6 +73,11 @@
     transition: all 0.5s ease;
     transform: scale(1.03);
 }
+.bg-opac:hover{
+    background-color: #04062d90;
+    cursor: pointer;
+}
+
 .bg-default{
     background-color: #04062D;
     transition: 0.2s ease;
@@ -85,10 +106,16 @@ box-shadow: none !important;
 .slider{
     display: flex;
     align-items: center;
-    animation: slide 15s linear infinite;
+    animation: slide 35s linear infinite;
+}
+.slider:hover{
+    animation-play-state: paused;
 }
 @keyframes slide {
-    100%{
+    from{
+        transform: translateX(0);
+    }
+    from{
         transform: translateX(-100%);
     }
 }
@@ -103,6 +130,10 @@ box-shadow: none !important;
     margin: 20px;
     padding: 10px;
 }
+/* Particle js CSS */
+
+
+
 /* Media Queries */
 @media (min-width:786px) {
     .fs-title{
