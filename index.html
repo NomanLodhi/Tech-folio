@@ -97,39 +97,71 @@
     </div>
 </div>
 </div>
-<div class="container-fluid py-5 bg-default">
-<div class="container-fluid overflow-hidden">
+<div class="container-fluid py-5 bg-dark ">
+<div class="container-fluid container-xxl overflow-hidden">
 <div class="slider">
-  <h1 class="text-slider text-light fw-bold">Creative</h1>
+  <h1 class="text-slider fw-bold">Creative</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Modern</h1>
+  <h1 class="text-slider fw-bold">Modern</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Elegant</h1>
+  <h1 class="text-slider fw-bold">Elegant</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Creative</h1>
+  <h1 class="text-slider fw-bold">Creative</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Modern</h1>
+  <h1 class="text-slider fw-bold">Modern</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Elegant</h1>
+  <h1 class="text-slider fw-bold">Elegant</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Creative</h1>
+  <h1 class="text-slider fw-bold">Creative</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Modern</h1>
+  <h1 class="text-slider fw-bold">Modern</h1>
   <div class="dots"></div>
-  <h1 class="text-slider text-light fw-bold">Elegant</h1>
+  <h1 class="text-slider fw-bold">Elegant</h1>
   <div class="dots"></div>
 </div>
 </div>
 </div>
 
-<!-- particles.js container --> <div ></div>  </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+<!-- particles.js container --> <div ></div>  </div>
+ 
+<!-- Our Projects -->
+ <div class="container-fluid position-relative bg-default ">
+  <video src="./media/animation.mp4" muted loop autoplay class="w-100 video-animation"></video>
+<div class="animation-overlay d-flex flex-column align-items-center justify-content-center">
+  <h1 class="display-1 fw-bold text-light">
+    We Are The Best
+  </h1>
+ <div class="d-flex align-items-center justify-content-center py-1">
+  <h1 class="fw-bold text-light fs-3">Creative</h1>
+  <div class="dots"></div>
+  <h1 class="fw-bold text-light fs-3">Modern</h1>
+  <div class="dots"></div>
+  <h1 class="fw-bold text-light fs-3">Elegant</h1>
+ </div>
+ <button class="btn-projects btn-lg rounded-pill px-3">Explore Our Projects</button>
+</div>
 
 
 
 
 
+ </div>
 
-  <script>
+
+
+
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+
+
+
+<!-- Custom cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+
+
+
+<script>
     window.addEventListener('scroll',()=>{
      if(window.scrollY>=80){
       document.getElementsByClassName('navbar')[0].classList.add('bg-default')
@@ -142,8 +174,11 @@
 
     })
     particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#333d87"},"shape":{"type":"polygon","stroke":{"width":0,"color":"#000"},"polygon":{"nb_sides":6},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.3,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":47.34885849793636,"random":false,"anim":{"enable":true,"speed":10,"size_min":40,"sync":false}},"line_linked":{"enable":false,"distance":200,"color":"#ffffff","opacity":1,"width":2},"move":{"enable":true,"speed":8,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+
+
   </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="./function.js"></script>
 </html>
