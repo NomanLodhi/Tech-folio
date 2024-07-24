@@ -59,6 +59,9 @@ a:hover{
 .btn:hover{
 cursor: none !important;
 }
+button:hover{
+    cursor:none !important;
+}
 .btn-contact-us:hover{
     background-color: aqua;
     color: black;
@@ -180,12 +183,26 @@ transition: 0.5s linear background;
     .fs-title{
         font-size:4rem;
     }
+   
+}
+@media (max-width:786px) {
+    .sec-ani h1{
+        font-size: 20px;
+    } 
+    .cursor-dot{
+        display: none;
+    }  
+    .cursor-outline{
+        display: none;
+    }  
 }
 @media (max-width:992px) and (min-width:0px) {
 .navbar-collapse{
     background-color: #04062D !important;
     padding: 20px;
 }
+
+
 .btn-contact-us{
     width: 100%;
     margin: 20px 2px;
