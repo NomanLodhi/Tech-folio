@@ -175,7 +175,30 @@ transition: 0.5s linear background;
     margin: 20px;
     padding: 10px;
 }
-
+.card-services:nth-child(1){
+border: 2px solid white;
+border-width: 0 2px 2px 0;
+}
+.card-services:nth-child(2){
+border: 2px solid white;
+border-width: 0 2px 2px 0;
+}
+.card-services:nth-child(3){
+border: 2px solid white;
+border-width: 0 0 2px 0;
+}
+.card-services:nth-child(4){
+border: 2px solid white;
+border-width: 0 2px 0 0;
+}
+.card-services:nth-child(5){
+border: 2px solid white;
+border-width: 0 2px 0 0;
+}
+.card-services:nth-child(6){
+border: 2px solid white;
+border-width: 0 0 0 0;
+}
 
 
 /* Media Queries */
