@@ -94,7 +94,9 @@ button:hover{
     background-color: #04062d90;
     cursor: pointer;
 }
-
+.video-main{
+    object-fit: cover;
+}
 .bg-nav{
     background-color: #04062D;
     transition: 0.2s ease;
