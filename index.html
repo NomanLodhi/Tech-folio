@@ -58,9 +58,11 @@
     <div id="particles-js" class="h-100"></div>
     <div class="container-fluid text-light position-absolute top-0 h-100 d-flex align-items-center justify-content-center w-100">
        <div class="row container">
-        <div class="col-lg-8 col-md-8 p-2"><h1 class="display-3 fw-bold">Creative Digital Agency</h1>
-        <p class="py-2 pe-5 text-justify">For scalable and trustworthy enterprise web development services, turn towards Zyenex LLC, a reputable enterprise web development company.</p></div>
-        <div class="col-lg-4 col-md-4"><img src="./media/agency.png" class="w-100 h-100 img-anim" alt=""></div>
+        <div class="p-2 d-flex flex-column justify-content-center"><h1 class="display-1 fw-bold text-center">NovaTech Solutions: </h1>
+        <p class="py-2 text-justify text-center">We are known For The Best Enterprise Web Development Agency.</p>
+        <button class="btn btn-outline-light d-inline mx-auto p-2 rounded-pill px-5">Contact Us Today !</button>
+      </div>
+      
        </div>
     </div>
   </div>
@@ -68,8 +70,8 @@
  <div class="container-xxl">
   <div class="row">
     <div class="col-lg-4 p-5 d-flex flex-column justify-content-center">
-      <p class="text-light barlow fs-5 lh-lg ">
-        We cover and maintain every aspect of your company site, offering everything you need to establish and sustain a strong online presence that drives your business forward.
+      <p class="text-light barlow fs-5">
+        At Zyenex LLC, we turn your vision into a bestselling product. As a leading web development agency, we believe in building your business from the ground up. Our approach involves initiating a concrete plan that not only meets your current needs but also sets the stage for future growth. Our dedicated team of professionals specializes in website development and E-book services, ensuring that your project is in capable hands.
       </p>
       <button class="btn btn-outline-light barlow px-3 my-3" style="width: 150px;">Learn More</button>
     </div>
@@ -92,8 +94,7 @@
 <div class="container-fluid bg-client py-5 ">
 <div class="container d-flex flex-column align-items-center justify-content-center">
   <h1 class="display-3 text-light fw-bold">Our Client</h1>
-  <p class="barlow text-light fs-5 text-center py-3 px-5">We provide all of our clients with the upmost care and quality in what we deliver.
-    Our maintenance packages keeps our clients happy and all the hard work off their hands and on ours.</p>
+  <p class="barlow text-light fs-5 text-center py-3 px-5">Hear from our clients about their experiences in transforming their businesses with us. Our professionals are highly specialized in enterprise web development, and their testimonials speak volumes about our dedication and expertise.</p>
     <div class="row col-lg-6 align-items-center justify-content-center my-3">
       <div class="col-lg-3 fit-logo"><img src="./media/Olufund-bespoke.png" alt="client-1" class="w-client-logo my-2" ></div>
       <div class="col-lg-3 fit-logo"><img src="./media/Tajweed-ul-Quran.png" alt="client-2" class="w-client-logo my-2" ></div>
@@ -147,7 +148,7 @@
 </div>
 <div class="container-fluid container-xxl overflow-hidden">
   <div class="row py-4">
-    <div class="col-lg-7 col-md-5 overflow-hidden pt-3">
+    <div class="col-lg-7 col-md-7 overflow-hidden pt-3">
       <div class="slider">
         <h1 class="text-slider fw-bold">Services</h1>
         <div class="dots"></div>
@@ -170,7 +171,7 @@
       </div>
     </div>
     <div class="col-lg-4 col-md-4">
-     <p class="text-light fw-bold px-3 fs-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+     <p class="text-light fw-bold px-3 fs-4">Enhance your brand with our digital services. We create engaging, user-friendly websites and strategies to boost your online presence.</p>
     </div>
   </div>
 <div class="row my-3 justify-content-center">
@@ -236,11 +237,12 @@
 <script>
     window.addEventListener('scroll',()=>{
      if(window.scrollY>=80){
-      document.getElementsByClassName('navbar')[0].classList.add('bg-default')
+      document.getElementsByClassName('navbar')[0].classList.add('bg-nav')
       document.getElementsByClassName('navbar')[0].classList.remove('bg-transparent')
     }
     else{
-       document.getElementsByClassName('navbar')[0].classList.add('bg-transparent')
+      document.getElementsByClassName('navbar')[0].classList.add('bg-transparent')
+      document.getElementsByClassName('navbar')[0].classList.remove('bg-nav')
       }
 
 

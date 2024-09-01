@@ -95,6 +95,11 @@ button:hover{
     cursor: pointer;
 }
 
+.bg-nav{
+    background-color: #04062D;
+    transition: 0.2s ease;
+    box-shadow:1px 1px 10px aqua;
+}
 .bg-default{
     background-color: #04062D;
     transition: 0.2s ease;
@@ -181,7 +186,7 @@ transition: 0.5s linear background;
     transition: all 0.2s linear;
 }
 .card-services:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     background-color:#05083f;
     box-shadow: 3px 3px 10px 3px aqua;
 }
