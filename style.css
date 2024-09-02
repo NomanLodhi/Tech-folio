@@ -100,14 +100,20 @@ button:hover{
 .bg-nav{
     background-color: #04062D;
     transition: 0.2s ease;
-    box-shadow:1px 1px 10px aqua;
+}
+.divider{
+    background-color: orangered;
+    width: 150px;
+    margin: 10px;
+    height: 5px;
+    border-radius: 30px;
 }
 .bg-default{
     background-color: #04062D;
     transition: 0.2s ease;
 }
 .bg-client{
-    background-image: url('./media/bg-client.png');
+    background-image: url('./media/bg-client.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -192,8 +198,36 @@ transition: 0.5s linear background;
     background-color:#05083f;
     box-shadow: 3px 3px 10px 3px aqua;
 }
+.text-review{
+    width: 80%;
+}
+.client-info{
+    border-top: 5px solid orangered;
+}
+.contact-form{
+    background-color:#05083f;
+    box-shadow: 3px 3px 10px 3px aqua;
+    padding: 100px 30px 100px 30px ;
+}
+.form-info textarea:focus-visible{
+    outline: unset;
+}
+.form-info input:focus-visible{
+    outline: unset;
+}
+.form-info textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
 
-
+.form-info input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
 
 /* Media Queries */
 @media (min-width:786px) {
@@ -212,6 +246,9 @@ transition: 0.5s linear background;
     .cursor-outline{
         display: none;
     }  
+    .rever{
+        flex-direction: column-reverse;
+    }
 }
 @media (max-width:992px) and (min-width:0px) {
 .navbar-collapse{
