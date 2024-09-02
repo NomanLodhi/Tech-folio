@@ -103,7 +103,7 @@ button:hover{
 }
 .divider{
     background-color: orangered;
-    width: 150px;
+    width: 200px;
     margin: 10px;
     height: 5px;
     border-radius: 30px;
@@ -168,6 +168,12 @@ box-shadow: none !important;
     -webkit-text-stroke:3px orangered ;
     color: transparent;
 }
+.btn-submit{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border: none;
+}
 .btn-projects{
 color: orangered;
 background-color: transparent;
@@ -220,13 +226,16 @@ transition: 0.5s linear background;
     border: none;
     border-bottom: 1px solid gray;
     color: white;
+    padding: 10px;
+    border: 1px solid white;
 }
 
 .form-info input{
     background-color: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
+    border: 1px solid white;
     color: white;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 /* Media Queries */
