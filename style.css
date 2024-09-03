@@ -238,13 +238,13 @@ transition: 0.5s linear background;
     border-radius: 30px;
 }
 .projects-container{
-    transform: rotate(-30deg) translateX(600px);
+    transform: rotate(-30deg) translateX(610px);
 }
 .col-pro{
     margin: 0 10px;
 }
 .col-pro:nth-child(1){
-    animation: col1 25s linear infinite alternate;
+    animation: col1 40s linear infinite alternate;
 }
 @keyframes col1 {
     100%{
@@ -261,7 +261,7 @@ transition: 0.5s linear background;
     }    
 }
 .col-pro:nth-child(3){
-    animation: col3 25s linear infinite alternate;
+    animation: col3 40s linear infinite alternate;
 }
 @keyframes col3 {
     100%{
