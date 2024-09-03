@@ -237,7 +237,37 @@ transition: 0.5s linear background;
     padding: 10px;
     border-radius: 30px;
 }
-
+.projects-container{
+    transform: rotate(-30deg) translateX(600px);
+}
+.col-pro{
+    margin: 0 10px;
+}
+.col-pro:nth-child(1){
+    animation: col1 25s linear infinite alternate;
+}
+@keyframes col1 {
+    100%{
+        transform: translateY(-70%);
+    }    
+}
+.col-pro:nth-child(2){
+    padding-right: 50px;
+    animation: col2 50s linear infinite alternate;
+}
+@keyframes col2 {
+    100%{
+        transform: translateY(-20%);
+    }    
+}
+.col-pro:nth-child(3){
+    animation: col3 25s linear infinite alternate;
+}
+@keyframes col3 {
+    100%{
+        transform: translateY(-70%);
+    }    
+}
 /* Media Queries */
 @media (min-width:786px) {
     .fs-title{
