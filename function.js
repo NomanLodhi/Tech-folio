@@ -12,3 +12,25 @@ cursorOutline.animate({
     top:`${posY}px`
 },{duration:500, fill: "forwards"})
 })
+let textChange=document.getElementById('text-change');
+
+setInterval(() => {
+    textChange.innerText="Web Development";
+    textChange.style.opacity=0.8
+    
+}, 2000);
+setInterval(() => {
+    textChange.innerText="Digital Marketing";
+    textChange.style.opacity=1
+    
+}, 4000);
+setInterval(() => {
+    textChange.innerText="Branding";
+    textChange.style.opacity=0.5
+    
+}, 6000);
+setInterval(() => {
+    textChange.innerText="Digital Transformation";
+    textChange.style.opacity=1
+    
+}, 8000);

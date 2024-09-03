@@ -237,6 +237,9 @@ transition: 0.5s linear background;
     padding: 10px;
     border-radius: 30px;
 }
+#text-change{
+    transition: opacity 1.5s ease;
+}
 .projects-container{
     transform: rotate(-30deg) translateX(610px);
 }
