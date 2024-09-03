@@ -5,6 +5,13 @@ body{
     background-color:#04062D ;
     cursor: none;
 }
+body::-webkit-scrollbar-thumb{
+background-color: orangered;
+}
+body::-webkit-scrollbar{
+    background-color: #04062D;
+    width: 10px;
+}
 body:active .cursor-outline{
     width: 30px;
     height: 30px;
