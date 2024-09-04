@@ -306,18 +306,18 @@ transition: 0.5s linear background;
     .fs-title{
         font-size:4rem;
     }
-    /* .cursor-dot{
-        display: none;
-    }  
-    .cursor-outline{
-        display: none;
-    }   */
    
 }
 @media (max-width:786px) {
     .sec-ani h1{
         font-size: 20px;
     } 
+    .cursor-dot{
+        display: none;
+    }  
+    .cursor-outline{
+        display: none;
+    }  
     .rever{
         flex-direction: column-reverse;
     }
