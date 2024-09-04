@@ -34,3 +34,16 @@ setInterval(() => {
     textChange.style.opacity=1
     
 }, 8000);
+
+window.addEventListener('scroll',()=>{
+    if(window.scrollY>=80){
+     document.getElementsByClassName('navbar')[0].classList.add('bg-nav')
+     document.getElementsByClassName('navbar')[0].classList.remove('bg-transparent')
+   }
+   else{
+     document.getElementsByClassName('navbar')[0].classList.add('bg-transparent')
+     document.getElementsByClassName('navbar')[0].classList.remove('bg-nav')
+     }
+
+
+   })

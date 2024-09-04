@@ -37,37 +37,37 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto me-5 ">
           <li class="nav-item">
-            <a class="nav-link mx-2" aria-current="page" href="#">HOME</a>
+            <a class="nav-link mx-2" aria-current="page" href="#Home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  mx-2" aria-current="page" href="#">ABOUT</a>
+            <a class="nav-link  mx-2" aria-current="page" href="#AboutUs">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  mx-2" aria-current="page" href="#">TESTIMONIALS</a>
+            <a class="nav-link  mx-2" aria-current="page" href="#testomonials">TESTIMONIALS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  mx-2" aria-current="page" href="#">SERVICES</a>
+            <a class="nav-link  mx-2" aria-current="page" href="#Services">SERVICES</a>
           </li>
          
         </ul>
-        <form class="d-flex" role="search">
-          
+        
+        <a class="d-flex" style="text-decoration: none;" href="#Contact">
           <button class="btn-contact-us">Contact Us</button>
-        </form>
+        </a>
       </div>
     </div>
   </nav>
-  <div class="container-fluid position-relative " style="height: 100vh;">
+  <div class="container-fluid position-relative " id="Home" style="height: 100vh;">
     <video src="./media/Web-Main-banner-Video.mp4" muted loop autoplay class="w-100 h-100 video-main"></video>
   <div class="animation-overlay d-flex flex-column align-items-center justify-content-center">
     <div class="p-2 d-flex flex-column justify-content-center"><h1 class="display-1 fw-bold text-center text-light">Zyenex LLC</h1>
       <p class="py-2 text-justify text-center text-light">We are known For The Best Enterprise Web Development Agency.</p>
-      <button class="btn btn-outline-light d-inline mx-auto p-2 rounded-pill px-5">Contact Us Today !</button>
+      <a href="#Contact" class="mx-auto" style="text-decoration: none;"><button class="btn btn-outline-light d-inline mx-auto p-2 rounded-pill px-5" >Contact Us Today !</button></a>
     </div>
   </div>
 </div>
 
-  <div class="container-fluid bg-dark">
+  <div class="container-fluid bg-dark" id="AboutUs">
  <div class="container-xxl">
   <div class="row rever">
     <div class="col-lg-6">
@@ -80,14 +80,15 @@
       <p class="text-light mt-3">
         At Zyenex LLC, we turn your vision into a bestselling product. As a leading web development agency, we believe in building your business from the ground up. Our approach involves initiating a concrete plan that not only meets your current needs but also sets the stage for future growth. Our dedicated team of professionals specializes in website development and E-book services, ensuring that your project is in capable hands.
       </p>
-      <button class="btn-projects rounded-pill px-3 my-3">Discuss Your Project</button>
+   <a href="#Contact" style="text-decoration: none;">   <button class="btn-projects rounded-pill px-3 my-3">Discuss Your Project</button>
+   </a>
     </div>
    
     
   </div>
  </div>
   </div>
-<div class="container-fluid bg-client py-5 ">
+<div class="container-fluid bg-client py-5 " id="testomonials">
 <div class="container d-flex flex-column align-items-center justify-content-center">
   <h1 class="fs-3 text-light fw-bold">Our Client</h1>
   <h1 class="fs-1 my-3 text-light fw-bold text-center">Trusted by Over 1,300 Clients</h1>
@@ -179,7 +180,7 @@
  </div>
 </div>
 </div>
-<div class="container-fluid container-xxl overflow-hidden">
+<div class="container-fluid container-xxl overflow-hidden" id="Services">
   <div class="row py-4">
     <div class="col-lg-7 col-md-7 overflow-hidden pt-3">
       <div class="slider">
@@ -337,7 +338,7 @@
 
 <!-- Contact -->
  <div class="container-fluid py-5">
-  <div class="container">
+  <div class="container" id="Contact">
     <h1 class="display-5 fw-bold m-0 text-center" style="color: orangered;">Get In Touch!</h1>
     <div class="contact-form my-5">
       <div class="row rever ">
@@ -361,8 +362,53 @@
   </div>
  </div>
 
-
-
+<!-- Footer -->
+<div class="container-fluid bg-dark pt-3">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-lg-4 col-md-4 my-2">
+        <img src="./media/zyenex_logo_square-removebg-preview.png" style="object-fit: cover;
+    " width="200" height="80" alt="" class="my-3 mb-4">
+        <h5 style="color: orangered;">Visit Us Now:</h5>
+        <p class="text-light">11826 Matagorda Ln, Sugar Land, TX 77498, USA</p>
+        <div class="d-flex">
+          <a href="https://twitter.com/Zyenex_LLC" target="_main" style="text-decoration: none;">
+            <div class="position-relative social-icon mx-1">
+              <div class="position-absolute icon-hov"><i class="ri-twitter-x-line text-light" style="z-index: 9 !important;"></i></div>
+              <i class="ri-twitter-x-line text-light" style="z-index: 9 !important;"></i>
+            </div>
+          </a>
+          <a href="https://m.facebook.com/groups/316356317150189/" target="_main" style="text-decoration: none;">
+            <div class="position-relative social-icon mx-1">
+              <div class="position-absolute icon-hov"><i class="ri-facebook-fill text-light" style="z-index: 9 !important;"></i></div>
+              <i class="ri-facebook-fill text-light" style="z-index: 9 !important;"></i>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/zyenexllc/?igsh=dzJtaGFqeDZwY2N3" target="_main" style="text-decoration: none;">
+            <div class="position-relative social-icon mx-1">
+              <div class="position-absolute icon-hov"><i class="ri-instagram-fill text-light" style="z-index: 9 !important;"></i></div>
+              <i class="ri-instagram-fill text-light" style="z-index: 9 !important;"></i>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/company/zyenex/" target="_main" style="text-decoration: none;">
+            <div class="position-relative social-icon mx-1">
+              <div class="position-absolute icon-hov"><i class="ri-linkedin-fill text-light" style="z-index: 9 !important;"></i></div>
+              <i class="ri-linkedin-fill text-light" style="z-index: 9 !important;"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 my-2">
+      </div>
+      <div class="col-lg-4 col-md-4 my-2 pt-5 d-flex flex-column justify-content-center">
+        <h5 style="color: orangered; " class="my-3">Get a Quote:</h5>
+    <p class="text-light">Ready to elevate your online presence? Let's bring your vision to life.</p>
+    <a href="#Contact"><button class="btn-submit mt-3 rounded-pill px-3">Get a Quote</button></a>
+      </div>
+    </div>
+    <p class="text-center text-light m-0">Copyright &copy; Reserved | Designed & Developed By <span style="color: orangered;">Zyenex LLC</span> </p>
+  </div>
+</div>
 
 
 
@@ -378,18 +424,7 @@
 
 
 <script>
-    window.addEventListener('scroll',()=>{
-     if(window.scrollY>=80){
-      document.getElementsByClassName('navbar')[0].classList.add('bg-nav')
-      document.getElementsByClassName('navbar')[0].classList.remove('bg-transparent')
-    }
-    else{
-      document.getElementsByClassName('navbar')[0].classList.add('bg-transparent')
-      document.getElementsByClassName('navbar')[0].classList.remove('bg-nav')
-      }
-
-
-    })
+ 
     
 
   </script>
