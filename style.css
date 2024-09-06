@@ -120,7 +120,7 @@ button:hover{
     transition: 0.2s ease;
 }
 .bg-client{
-    background-image: url('./media/bg-client.jpeg');
+    background-image: url('./media/bg-client.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
